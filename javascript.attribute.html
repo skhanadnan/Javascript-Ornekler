@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        div{
+            width:100%;
+            height:55px;
+            background-color:blue;
+            color:yellow;
+            text-shadow:10px 10px 25px white;
+            font-style:italic;
+            font-size:35px;
+            padding:25px;
+            text-decoration:underline;
+
+          }
+    </style>
+</head>
+<body>
+    <div>
+        Javascript Dersleri
+    </div>
+
+
+    <script>
+         //var enkcucuksayi= Number.MIN_VALUE;
+        // document.write(enkcucuksayi);//
+
+        //toString= değişken içeriğini string bir veri türünde düz bir metne cevirerek olusturdugu degeri geri donduru.
+
+       var degerbir="Adnan";
+       var degeriki= 10;
+       var result= degerbir*degeriki;
+        document.write(result+"<br/>");
+        if(isNaN(degerbir)){
+            document.write("Bu Bir Sayi Değil");
+        }else{
+            document.write("Bu Bir Sayidir");
+        }
+        
+
+        var degeruc="Adnan İsikhan";
+        var degerdort= 5.10;
+        var degerbes= 100;
+        var degeralti= NaN;
+
+        var sonucbir=isNaN(degeruc);
+        var sonuciki=isNaN(degerdort);
+        var sonucuc=isNaN(degerbes);
+        var sonucdort=isNaN(degeralti);
+        document.write(sonucbir+"<br/>");
+        document.write(sonuciki+"<br/>");
+        document.write(sonucuc+"<br/>");
+        document.write(sonucdort+"<br/>");
+
+        var Num1=100;
+        var Num2=5.10;
+
+        var result1=Number.isInteger(Num1);
+        var result2=Number.isInteger(Num2);
+        document.write("Bu degiskenin veri turu integer mi?:"+result1+"<br/>");
+        document.write("Bu degiskenin veri turu İnteger mİ?:"+result2+"<br/>");
+
+        var deger1="10";
+        var deger2="10.55";
+        var deger3="30 20 10";
+        var deger4="25";
+        var deger5="10 Numara İslem";
+        var deger6="Fiyati 100";
+
+        var sonuc1=parseInt(deger1);
+        var sonuc2=parseInt(deger2);
+        var sonuc3=parseInt(deger3);
+        var sonuc4=parseInt(deger4);
+        var sonuc5=parseInt(deger5);
+        var sonuc6=parseInt(deger6);
+
+        var dergerverituru1=typeof deger1;
+        var dergerverituru2=typeof dergerverituru2;
+        var dergerverituru3=typeof deger3;
+        var dergerverituru4=typeof deger4;
+        var dergerverituru5=typeof deger5;  
+        var dergerverituru6=typeof deger6;
+
+        var sonuc1verituru=typeof sonuc1;
+        var sonuc2verituru=typeof sonuc2;
+        var sonuc3verituru=typeof sonuc3;
+        var sonuc4verituru=typeof sonuc4;
+        var sonuc5verituru=typeof sonuc5;
+        var sonuc6verituru=typeof sonuc6;
+
+        document.write("Deger:"+deger1 + dergerverituru1+"<br/>");
+        document.write("Sonuc:"+sonuc1 + sonuc1verituru+"<br/>");
+
+        document.write("Deger:"+deger2 + dergerverituru2+"<br/>");
+        document.write("Sonuc:"+sonuc2 + sonuc2verituru+"<br/>");
+
+        document.write("Deger:"+deger3 + dergerverituru3+"<br/>");
+        document.write("Sonuc:"+sonuc3+sonuc3verituru+"<br/>");
+
+        document.write("Deger:"+deger4+dergerverituru4+" <br/>");
+        document.write("Sonuc:"+sonuc4+sonuc4verituru+"<br/>");
+        
+        document.write("Deger:"+deger5+dergerverituru5+" <br/>");
+        document.write("Sonuc:"+sonuc5+sonuc5verituru+"<br/>");       
+
+        document.write("Deger:"+deger6+dergerverituru6+"<br/>");
+        document.write("Sonuc:"+sonuc6+sonuc6verituru+"<br/>");        
+
+        var  number1=5;
+        var  number2=10.55;
+
+        var typenumber1=typeof number1;
+        var typenumber2=typeof number2;
+
+
+        var numberresult1=number1.toString();
+        var numberresult2=number2.toString();
+
+        var numberresulttype= typeof numberresult1;
+        var numberresulttype2= typeof numberresult2;
+
+        document.write("Deger:"+number1+" Degerin türü: "+typenumber1+"<br/>");
+        document.write("Deger:"+number2+" Degeri türü: "+typenumber2+"<br/>");
+
+        document.write("Degeri:"+numberresult1+"<br/>");
+        document.write("Degeri:"+numberresult2+"<br/>");
+
+        document.write("Degerin Türü: "+numberresulttype+"<br/>");
+        document.write("Degerin Türü: "+numberresulttype2+"<br/>");
+
+        document.write("Sonuc:"+number1+number2);
+
+
+    </script>
+</body>
+</html>

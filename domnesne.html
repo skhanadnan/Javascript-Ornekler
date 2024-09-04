@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+
+        .page-top{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            background-color:blue;
+            color:White;
+            width:100%;
+            height:55px;
+           
+        }
+        
+
+        .page-top h1{
+            font-style:italic;
+            font-weight:bold;
+            font-size:30px;
+            text-shadow:5px 5px 10px black;
+
+        }
+    </style>
+</head>
+<body>
+     <div class="page-top">
+     <h1>Javascript Derslerine Giriş</h1>
+     <img src="Image/icons8-javascript-48.png" alt="">
+    </div>
+    <br><br><br>
+
+    <h2>Javascript Derslerine Hoşgeldiniz</h2>
+
+    <script id="birinci">
+        document.writeln("Adnan Işıkhan");
+        document.write("Javascript Derslerine Giris");
+    </script>
+   
+
+    <script id="ikinci" type="text/javascript" language="javascript">
+        document.write("characterset=>"+document.characterSet+"<br/>");
+        document.write("contenttype=>"+document.contentType+"<br/>");
+        document.write("domain=>"+document.domain+"<br/>");
+        document.write("referrer=>"+document.referrer+"<br/>");
+        document.write("URL=>"+document.URL+"<br/>");
+        document.write("width=>"+document.width+"<br/>");
+        document.write("height=>"+document.height+"<br/>");
+        document.write("lastmodifed=>"+document.lastModified+"<br/>");
+        document.write("document.scripts=>"+document.scripts.namedItem("birinci").text+"<br/>");
+    </script>
+</body>
+</html>

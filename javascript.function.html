@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        function topla(a,b){
+            return a+b;
+
+        }
+
+        var result=topla(10,40);
+        console.log(result);
+        console.log(topla(10,50));
+
+        var now=2024;
+        function yashesapla(yas){
+            return now-yas;
+        }
+
+        let adnan=yashesapla(1997);
+        var gulseren=yashesapla(1999);
+        var ece=yashesapla(2000);
+        var bedi=yashesapla(1968);
+        var gulcan=yashesapla(1973);
+        console.log("Merhaba benim adim adnan ve ben "+adnan+" yasindayim");
+        console.log("Merhaba benim adim gulseren ve ben "+gulseren+" yasindayim");
+        console.log("Merhaba benim adim ece ve ben "+ece+" yasindayim");
+        console.log("Merhaba benim adim bedi ve ben "+bedi+" yasindayim");
+        console.log("Merhaba benim adim gulcan ve ben "+gulcan+" yasindayim");
+
+        function emeklilikhesapla(name,yas){
+            var k_yas=yashesapla(yas);
+            var emeklilik=65-k_yas;
+            console.log(name+" "+emeklilik+" yil sonra emekli olabilirsiniz");
+
+        }
+        emeklilikhesapla("adnan",1997);
+        emeklilikhesapla("bedi",1968);
+
+        function sayihessapla(num){
+            var num=Number(prompt("Bir Sayi Giriniz:"));
+            if(num%2==0){
+                console.log("Girilen Sayi Cift");
+            }else{
+                console.log("Girilen sayi tek");
+            }
+        }
+
+        sayihessapla();
+       
+        var color=new Array("BLUE","BLACK","WHİTE","RED","ORANGE","PİNK","PURPLE","GREEN","YELLOW");
+         function colors(dizi){
+            color.forEach(function(item){
+            console.log("My Favorite Color:"+item);
+
+        });
+       }
+
+       colors(color);
+    </script>
+</body>
+</html>

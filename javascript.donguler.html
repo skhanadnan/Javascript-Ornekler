@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        //donguler//
+
+        //for and while//
+
+        /*for(var i=0;i<=10;i++){
+            console.log(i);
+        }*/
+        /*var sehirler= new Array("Ankara","İstnabul","Burda","Mardin","Diyarbakir","Hakkari");
+        for(var i=0;i<sehirler.length;i++){
+            console.log(sehirler[i]);
+        }*/
+
+      /* var i=0;
+        while (i<10){
+            console.log(i);
+            i++;
+        }*/
+
+        /*<!-- for(var i=0;i<100;i++){
+            if(i%2==0){
+                console.log(i);
+            }
+        } */
+
+      
+       /* var i=10;
+        while(i<=100){
+            console.log(i)
+            i+=5;
+        } */
+
+        let username="guest";
+        let password="12345";
+        let loggin=false;
+        
+        while(loggin==false){
+        let user=prompt("Kullanici Adinizi Giriniz:");
+        let sifre=prompt("Lütfen Parolanizi Giriniz:");
+        
+        if((user==username) && (sifre==password)){
+
+            console.log("Girs Yapildi");
+            break;
+
+        }else{
+            console.log("Hatali kullanici adi veya parola giris yaptiniz");
+        }
+    }
+
+    
+    </script>
+</body>
+</html>
